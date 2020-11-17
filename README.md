@@ -8,3 +8,6 @@ Users without access to LIMS can use the provided file "backlog.dat" with test s
 
 The functionality of these tools assumes that the user's instrument software is compatible with excel clipboard objects (i.e. excel data can be pasted).
 
+#### Other Considerations
+
+Laboratory analysts usually have very specific requirements for how data is presented in a sample list.  Users will likely have to customize output for thier individual needs.
