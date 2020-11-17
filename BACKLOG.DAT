@@ -1,0 +1,69 @@
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           AG_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           AG_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           AG_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           AG_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           AG_ICPMS_SL             BC_WW100                
+AR15301 NDWTP Lagoon Outfall 001                                    11/02/202008:00   Sampling Location 101                   AL_ICPMS                ND_DW010                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           AL_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           AL_ICPMS                BC_WW020                
+AR15517 NDWTP Lagoon Outfall 001                                    11/05/202008:30   Sampling Location 101                   AL_ICPMS                ND_DW010                
+AR15652 NDWTP Lagoon Outfall 001                                    11/09/202008:00   Sampling Location 101                   AL_ICPMS                ND_DW010                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           AL_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           AL_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           AS_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           AS_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           AS_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           AS_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           AS_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           CD_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           CD_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           CD_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           CD_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           CD_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           CR_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           CR_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           CR_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           CR_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           CR_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           CU_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           CU_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           CU_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           CU_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           CU_ICPMS_SL             BC_WW100                
+AR15301 NDWTP Lagoon Outfall 001                                    11/02/202008:00   Sampling Location 101                   FE_ICPMS                ND_DW010                
+AR15501 Copperfield WTP Raw                                         11/04/202011:21                                           FE_ICPMS                CP_DW0000005            
+AR15502 Copperfield WTP POE                                         11/04/202011:22                                           FE_ICPMS                CP_DW0000001            
+AR15517 NDWTP Lagoon Outfall 001                                    11/05/202008:30   Sampling Location 101                   FE_ICPMS                ND_DW010                
+AR15521 New Design Plant #2 POE                                     11/05/202005:00                                           FE_ICPMS                ND_DW001_2              
+AR15652 NDWTP Lagoon Outfall 001                                    11/09/202008:00   Sampling Location 101                   FE_ICPMS                ND_DW010                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           K_ICPMS_DRYWT           BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           K_ICPMS_SL              BC_WW100                
+AR15301 NDWTP Lagoon Outfall 001                                    11/02/202008:00   Sampling Location 101                   MN_ICPMS                ND_DW010                
+AR15501 Copperfield WTP Raw                                         11/04/202011:21                                           MN_ICPMS                CP_DW0000005            
+AR15502 Copperfield WTP POE                                         11/04/202011:22                                           MN_ICPMS                CP_DW0000001            
+AR15517 NDWTP Lagoon Outfall 001                                    11/05/202008:30   Sampling Location 101                   MN_ICPMS                ND_DW010                
+AR15521 New Design Plant #2 POE                                     11/05/202005:00                                           MN_ICPMS                ND_DW001_2              
+AR15652 NDWTP Lagoon Outfall 001                                    11/09/202008:00   Sampling Location 101                   MN_ICPMS                ND_DW010                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           MO_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           MO_ICPMS                BC_WW020                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           MO_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           MO_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           NI_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           NI_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           NI_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           NI_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           NI_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           PB_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           PB_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           PB_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           PB_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           PB_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           SE_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           SE_ICPMS                BC_WW020                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           SE_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           SE_ICPMS_SL             BC_WW100                
+AR15352 BCWWTP Effluent                                             11/03/202007:00                                           ZN_ICPMS                BC_WW001                
+AR15353 BCWWTP Headworks                                            11/03/202007:22                                           ZN_ICPMS                BC_WW020                
+AR15525 Landfill Outfall 125-001                                    11/05/202009:25                                           ZN_ICPMS                IPP_125                 
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           ZN_ICPMS_DRYWT          BC_WW100                
+AR15354 BCWWTP Sludge                                               11/03/202008:27                                           ZN_ICPMS_SL             BC_WW100                
