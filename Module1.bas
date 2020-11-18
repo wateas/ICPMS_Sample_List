@@ -204,35 +204,6 @@ Sub ICPMS_Merge()
     ' Ensures all cells are unhidden and autofilter is reset on worksheet Import.
     wksImport.Range("A1:D502").EntireRow.Hidden = False
     wksImport.Range("A1:D502").AutoFilter Field:=4
-
-    ' This code interacts with the excel (special) table in that it can
-    ' de-select any analysis codes that aren't on the list (spreadsheet
-    ' will hide rows with analysis codes not on the list)
-    ' Will filter out unwanted analysis codes like "MET_DIG"
-    ' Now impractical since the new ICPMS_XX_DW analysis codes have been implemented.
-'    WrkSht1.Range("$A$2:$D$302").AutoFilter Field:=4, Criteria1:=Array( _
-'        "AG_ICPMS", "AG_ICPMS_SL", "AL_ICPMS", "AL_ICPMS_SL", "AS_ICPMS", "AS_ICPMS_SL", _
-'        "BA_ICPMS", "BE_ICPMS", "CA_ICPMS", "CA_ICPMS_SL", "CD_ICPMS", "CD_ICPMS_SL", _
-'        "CR_ICPMS", "CR_ICPMS_SL", "CU_ICPMS", "CU_ICPMS_SL", "K_ICPMS", "K_ICPMS_SL", _
-'        "FE_ICPMS", "FE_ICPMS_SL", "MN_ICPMS", "MN_ICPMS_SL", "MO_ICPMS", "MO_ICPMS_SL", _
-'        "NA_ICPMS", "NA_ICPMS_SL", "NI_ICPMS", "NI_ICPMS_SL", "PB_ICPMS", "PB_ICPMS_SL", _
-'        "SB_ICPMS", "SE_ICPMS", "SE_ICPMS_SL", "TL_ICPMS", "ZN_ICPMS", "ZN_ICPMS_SL"), _
-'        Operator:=xlFilterValues
-
-    ' Doesn't work; not sure why.
-    'wksImport.Range("$A$2:$D$502").AutoFilter Field:=4, _
-        Criteria1:="<>MET_DIG", Operator:=xlOr, Criteria2:="<>HG_DIG"
-
-    ' Works but not enough criteria parameters (want to filter out *DRYWT*, others...).
-    'wksImport.Range("$A$2").CurrentRegion.AutoFilter Field:=4, _
-        Criteria1:="<>MET_DIG", Criteria2:="<>*HG_*"
-
-    ' Does not work.
-    ' https://stackoverflow.com/questions/32891223/autofilter-exceptions-with-more-than-two-criteria
-    ' https://chandoo.org/forum/threads/vba-code-to-autofilter-and-hide-rows-based-on-criteria.23407/
-    'wksImport.Range("$A$2").CurrentRegion.AutoFilter Field:=4, _
-        Criteria1:=Array("<>AG_ICPMS", "<>AL_ICPMS", "<>AS_ICPMS"), _
-        Operator:=xlFilterValues
     
     ' Set rngCurrent for Analysis Code column before applying filter criteria.
     With wksImport
@@ -250,8 +221,7 @@ Sub ICPMS_Merge()
         End If
     Next i
 
-    '  To capture only non-hidden cells, need to use -
-    ' .SpecialCells(xlCellTypeVisible).
+    '  To capture only unhidden cells, need to use .SpecialCells(xlCellTypeVisible).
     wksImport.Range("A2:C" & rngImportEnd.Row).SpecialCells(xlCellTypeVisible). _
         Copy Destination:=rngStartRow
 
