@@ -21,38 +21,6 @@ Sub SetVariables(WrkShtName)
 
 End Sub
 
-'Sub SendToManipulate()
-''******************************************************************************
-'' Idea is to select dynamic range on worksheet "PasteCoverSheet" - and paste on
-'' "ManipulateList".
-'' WAT 6/24/19; Edited 12/9/19
-''******************************************************************************
-'
-'    ' Input for procedure SetVariables.
-'    Dim WrkShtName As String
-'
-'    WrkShtName = ThisWorkbook.ActiveSheet.Name
-'
-'    Call SetVariables(WrkShtName)
-'
-'    wksTarget.Range("A10:B300").ClearContents
-'
-'    Set rngCurrent = wksCurrent.Range(rngStartRow, rngLastRow)
-'
-'    rngCurrent.Copy
-'    wksTarget.Range("A10").PasteSpecial (xlPasteValues)
-'
-'    wksTarget.Select
-'
-''    ' DEBUG
-''    Debug.Print wksCurrent.Name
-''    Debug.Print ("Start Row: " & rngStartRow.Row & ", " & rngStartRow.Column)
-''    Debug.Print ("Last Row: " & rngLastRow.Row & ", " & rngLastRow.Column)
-''    Debug.Print wksTarget.Name
-''    rngCurrent.Select
-'
-'End Sub
-
 Sub UpdateLibrary()
 '******************************************************************************
 ' Copies all samples from worksheet "PasteBacklog" to - "SampleLibrary" so
@@ -134,16 +102,6 @@ Sub DeleteDuplicates()
         ' sometimes gives an "object out of range" error if text is
         ' selected/copied on the SampleLibrary sheet
     ActiveSheet.Range("$A$10:$B$310").RemoveDuplicates Columns:=1, Header:=xlNo
-
-'For some reason, the below code did not work with this sheet to sort (5/22/19)
-'    With ActiveWorkbook.Worksheets("SampleLibrary").Sort
-'        .SetRange Range("$A$10:$B$310")
-'        .Header = xlYes
-'        .MatchCase = False
-'        .Orientation = xlTopToBottom
-'        '.SortMethod = xlPinYin 'for Chinese languages
-'        .Apply
-'    End With
 
     ' Used macro recorder - modified range selections
     Range("A10:B310").Select
